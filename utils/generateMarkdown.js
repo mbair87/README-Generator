@@ -21,12 +21,40 @@ function renderLicenseSection(license) {
   }
 }
 
-// TODO: Create a function to generate markdown for README
+// // TODO: Create a function to generate markdown for README
+// function generateMarkdown(data) {
+//   console.log(data);
+//   return `# ${data.title}
+// ${renderLicenseSection(data.license)}
+// `;
+// }
+
 function generateMarkdown(data) {
-  console.log(data);
   return `# ${data.title}
-${renderLicenseSection(data.license)}
+  ${renderLicenseSection(data.license)}
+## Description 
+${data.description}
+## Table of Contents
+* [Installation]
+* [Usage]
+* [License]
+* [Languages]
+* [Tests]
+* [Questions]
+## Installation
+${data.installation}
+## Usage 
+${data.usage}
+## License
+The license is ${data.license}. 
+## Languages
+Laguages used: ${data.languages}.
+## Tests
+${data.tests}
+## Questions
+Please contact ${data.email} with any questions.
 `;
 }
+
 
 module.exports = generateMarkdown;
