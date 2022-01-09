@@ -23,7 +23,7 @@ Laguages used: JavaScript,Node.
 https://github.com/mbair87/README-generator 
 
 ## Walkthrough
-[Video walkthrough of application functionality](Professional-README-Generator.gif)
+[Video walkthrough of application functionality](https://youtu.be/cNl9QTxoSfU)
 
 ## Questions
 Please contact mbair87@gmail.com with any questions.
