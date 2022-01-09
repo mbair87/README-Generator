@@ -74,10 +74,10 @@ const questions = [
 
  // choose license
  {
-    type: 'checkbox',
-    name: 'licensing',
+    type: 'list',
+    name: 'license',
     message: 'Choose a license for your project (Required)',
-    choices: ['MIT', 'Apace', 'GPL', 'None'],
+    choices: ['MIT', 'Apache', 'GPL', 'None'],
     validate: licenseInput => {
         if (licenseInput) {
             return true;
@@ -126,10 +126,17 @@ const questions = [
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+    fs.writeFile(fileName, data, function(error){console.log(error)}) 
+}
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+    inquirer.prompt(questions).then(function(data){
+        const markdown = generatePage(data)
+        writeToFile('README.md', markdown)
+    })
+}
 
 // Function call to initialize app
 init();
