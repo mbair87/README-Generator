@@ -1,23 +1,26 @@
-# readme generator
-  ![license](https://img.shields.io/badge/license-MIT-brightgreen)
+# Professional README Generator
+  
 ## Description 
-a tool to make a readme
+A command line application to quickly and easily generate a high quality README.md file
 ## Table of Contents
-* [Installation]
-* [Usage]
-* [License]
-* [Languages]
-* [Tests]
-* [Questions]
+* [Installation](#installation)
+* [Usage](#usage)
+* [License](#license)
+* [Languages](#languages)
+* [Tests](#tests)
+* [Questions](#questions)
 ## Installation
-install it 
+Run npm install to install all required dependencies
 ## Usage 
-use it
+run node index.js in terminal and follow all prompts to generate README.md
 ## License
-The license is MIT. 
+The license is None. 
 ## Languages
 Laguages used: JavaScript,Node.
 ## Tests
-contribute
+
+## Walkthrough
+(Professional-README-Generator.gif)
+
 ## Questions
 Please contact mbair87@gmail.com with any questions.
