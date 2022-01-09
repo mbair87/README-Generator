@@ -19,8 +19,11 @@ The license is None.
 Laguages used: JavaScript,Node.
 ## Tests
 
+## GitHub Repository
+https://github.com/mbair87/README-generator 
+
 ## Walkthrough
-(Professional-README-Generator.gif)
+[Video walkthrough of application functionality](Professional-README-Generator.gif)
 
 ## Questions
 Please contact mbair87@gmail.com with any questions.
